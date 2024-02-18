@@ -116,14 +116,12 @@ nav a:focus, nav a:hover {
 .skip a {
   position: absolute;
   top: -40px;
-  /* visibility: hidden; */
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip a:focus {
   position: absolute;
   top: 20px;
-  /* visibility: visible; */
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
@@ -153,7 +151,7 @@ div:first-child {
 
       /*This will be a lot of rules.... but be strategic and combine seletors*/
 .about, .method, .clients, .contact {
-  grid-column: 2/ span 1;
+  grid-column: 2/span 1;
 }
 
 .about-image, .method-image, .clients-image, .contact-image {
@@ -180,7 +178,7 @@ div:first-child {
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
